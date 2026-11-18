@@ -19,7 +19,6 @@ task1/
 │   └── features.py      # Harris from scratch, detectors/descriptors, ratio test, RANSAC, ground-truth evaluation
 ├── artifacts/calibration.npz     # K, dist, image size (written by 1A, used by Task 3)
 ├── results/1A, 1B, 1C/           # figures (.png), tables (.csv), metrics.json
-└── requirements.txt
 ```
 
 ## Data
@@ -32,10 +31,8 @@ task1/
 
 ## Run
 
-```powershell
-cd CW\task1
-python -m pip install -r requirements.txt     # inside the project environment (see ../README.md)
-```
+Install the libraries once for all tasks from the `CW` folder: `python -m pip install -r requirements.txt`
+(see `../README.md`).
 
 Open the notebooks with the working directory set to `task1/` (VS Code / Jupyter)
 and run all cells in order 1A → 1B → 1C. Total run time is about 1 minute.

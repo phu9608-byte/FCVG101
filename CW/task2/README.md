@@ -18,8 +18,7 @@ task2/
 │                          # rejected_images.csv, near_duplicates.csv
 ├── results/               # train_history.csv, learning_curves.png, test_metrics.json, test_predictions.csv,
 │                          # confusion_matrix.png, near_duplicates.png
-├── runs/                  # earlier 30-epoch baseline runs (GPU and CPU) + training log of the final model
-└── requirements.txt
+└── runs/                  # earlier 30-epoch baseline runs (GPU and CPU) + training log of the final model
 ```
 
 The images are in `../datasets/fruits/`: `raw/<class>/` (255 images after cleaning) and

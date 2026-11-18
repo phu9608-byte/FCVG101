@@ -580,10 +580,10 @@ function content() {
 
   // ============================================================ 5. RUNNING
   add(H1("5. How to Run the Whole System"));
-  add(P("Tested on Windows 11 with Python 3.12.10. One virtual environment can serve all three tasks. On Windows, create it in a short path to avoid the *Long Path* error when installing PyTorch."));
+  add(P("Tested on Windows 11 with Python 3.12.10. One virtual environment serves all three tasks: every library is listed once in `CW/requirements.txt`. On Windows, create it in a short path to avoid the *Long Path* error when installing PyTorch."));
   add(P("Clone the repository (" + REPO + "); all paths below are relative to its folder `CW/`.", { align: AlignmentType.LEFT }));
   add(H3("Step 1 – Environment"));
-  add(...codeBlock(["git clone git@github.com:phu9608-byte/FCVG101.git", "python -m venv C:\\venvs\\fcvg101", "C:\\venvs\\fcvg101\\Scripts\\Activate.ps1", "cd FCVG101\\CW", "python -m pip install -r task1\\requirements.txt -r task2\\requirements.txt -r task3\\requirements.txt", "python -m pip install ipykernel", "python -m ipykernel install --user --name fcvg101 --display-name \"Python (fcvg101)\"", "# optional, NVIDIA GPU for training:", "# python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130"], 17), spacer());
+  add(...codeBlock(["git clone git@github.com:phu9608-byte/FCVG101.git", "python -m venv C:\\venvs\\fcvg101", "C:\\venvs\\fcvg101\\Scripts\\Activate.ps1", "cd FCVG101\\CW", "python -m pip install -r requirements.txt     # all libraries of Task 1, 2 and 3", "python -m ipykernel install --user --name fcvg101 --display-name \"Python (fcvg101)\"", "# optional, NVIDIA GPU for training:", "# python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130"], 17), spacer());
   add(H3("Step 2 – Task 1 (classical engine)"));
   add(P("Open `task1/` in VS Code or Jupyter with the kernel above and run all cells of `1A_calibration.ipynb`, `1B_filtering_edges_fft.ipynb` and `1C_features_matching.ipynb` in this order (about 1 minute). 1A writes `task1/artifacts/calibration.npz`; all figures and tables go to `task1/results/1A|1B|1C/`. The checkerboard photos are in `datasets/checkerboard/`, the fruit images in `datasets/fruits/raw/`.", { align: AlignmentType.LEFT }));
   add(H3("Step 3 – Task 2 (data pipeline and CNN)"));
@@ -634,8 +634,8 @@ function content() {
   add(P("All source code of the project is listed below as selectable text: the code cells of every notebook and the Python modules they import, in the order Task 1, Task 2, Task 3. Comments in some files are written in Vietnamese. The emoji in the button labels of `task3/app.py` are printed as the equivalent Python escape sequences (e.g. `\\U0001F34E` for the apple icon), which give the same string at run time. The figure-generation helpers used only for this report are in `report/build/`."));
   const pyFiles = [
     ["A.1 Task 1 – engine (task1/src)", ["task1/src/calibration.py", "task1/src/filtering.py", "task1/src/features.py"]],
-    ["A.4 Task 2 – modules imported by the notebook and by Task 3 (task2/src)", ["task2/src/model.py", "task2/src/data_utils.py", "task2/src/inference.py", "task2/requirements.txt"]],
-    ["A.6 Task 3 – Streamlit app and assistant package (task3)", ["task3/app.py", "task3/assistant/__init__.py", "task3/assistant/settings.py", "task3/assistant/errors.py", "task3/assistant/engines.py", "task3/assistant/intent.py", "task3/assistant/tools.py", "task3/assistant/gradcam.py", "task3/.streamlit/config.toml", "task3/requirements.txt"]],
+    ["A.4 Task 2 – modules imported by the notebook and by Task 3 (task2/src)", ["task2/src/model.py", "task2/src/data_utils.py", "task2/src/inference.py"]],
+    ["A.6 Task 3 – Streamlit app and assistant package (task3)", ["task3/app.py", "task3/assistant/__init__.py", "task3/assistant/settings.py", "task3/assistant/errors.py", "task3/assistant/engines.py", "task3/assistant/intent.py", "task3/assistant/tools.py", "task3/assistant/gradcam.py", "task3/.streamlit/config.toml", "requirements.txt"]],
   ];
   const listFile = (rel) => {
     const lines = fs.readFileSync(path.join(CW, rel), "utf8").replace(/^\uFEFF/, "").split(/\r?\n/);

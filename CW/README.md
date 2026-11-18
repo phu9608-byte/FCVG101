@@ -9,6 +9,7 @@ Repository: <https://github.com/phu9608-byte/FCVG101>
 
 ```
 CW/
+├── requirements.txt       # all libraries for the three tasks (install once)
 ├── datasets/
 │   ├── checkerboard/      # 15 calibration photos (calibration/), independent test photo (mau/), floor tiles (check_test.jpg)
 │   └── fruits/            # Kaggle "Fruit Images for Object Detection" (CC0): raw/ (255 cleaned images), splits/ (train/val/test)
@@ -34,8 +35,7 @@ Trained model artifact: [`task2/artifacts/model.pth`](task2/artifacts/model.pth)
 python -m venv C:\venvs\fcvg101            # a short path avoids the Windows "Long Path" error of PyTorch
 C:\venvs\fcvg101\Scripts\Activate.ps1
 cd CW
-python -m pip install -r task1\requirements.txt -r task2\requirements.txt -r task3\requirements.txt
-python -m pip install ipykernel
+python -m pip install -r requirements.txt   # one file for Task 1, 2 and 3
 python -m ipykernel install --user --name fcvg101 --display-name "Python (fcvg101)"
 ```
 

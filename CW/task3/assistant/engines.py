@@ -150,7 +150,7 @@ def load_classifier(model_path: Path | None = None, task2_dir: Path | None = Non
         inference = _import_task2(task2_dir)
     except ModuleNotFoundError as exc:          # torch / torchvision not installed
         raise AssistantError(f"Cannot import the Task 2 model code: {exc}",
-                             "Install the dependencies: python -m pip install -r task3/requirements.txt") from exc
+                             "Install the dependencies: python -m pip install -r CW/requirements.txt") from exc
     try:
         model, idx_to_class, transform = inference.load_model(str(model_path))
         checkpoint = inference.read_checkpoint(str(model_path))

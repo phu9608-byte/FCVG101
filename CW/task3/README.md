@@ -8,9 +8,12 @@ Nothing from Task 1/2 is copied: the app imports and calls their code directly.
 
 ## 1. Install (one environment for Tasks 1–3)
 
+The libraries of all three tasks are in one file, `CW/requirements.txt`:
+
 ```bash
 python -m venv .venv
 # Windows: .venv\Scripts\activate        macOS/Linux: source .venv/bin/activate
+cd CW
 python -m pip install -r requirements.txt
 ```
 
