@@ -1,10 +1,10 @@
-"""Copy the result figures of Tasks 1-3 into report/figures as compressed JPEGs (PDF limit: 5 MB).
+"""Copy the result figures of Tasks 1-3 into report/figures as compressed JPEGs (CMS limit: 2 MB per PDF).
 
     C:\\venvs\\fcvg101\\Scripts\\python.exe report/build/prepare_figures.py
 """
 from pathlib import Path
-import glob
-from PIL import Image, ImageDraw
+
+from PIL import Image
 
 CW = Path(__file__).resolve().parents[2]
 OUT = CW / "report" / "figures" / "jpg"
@@ -37,7 +37,7 @@ FIGS = {
 }
 
 
-def save(im: Image.Image, name: str, max_w: int = 1400, q: int = 72):
+def save(im: Image.Image, name: str, max_w: int = 1000, q: int = 50):   # CMS limit: 2 MB per PDF
     im = im.convert("RGB")
     if im.width > max_w:
         im = im.resize((max_w, round(im.height * max_w / im.width)), Image.LANCZOS)
@@ -55,24 +55,7 @@ def main():
         p = save(im, name)
         total += p.stat().st_size
         print(f"{name:16s} {Image.open(p).size} {p.stat().st_size // 1024} KB")
-    # near-duplicate review sheet: keep the first rows only (cross-split pairs come first)
-    nd = Image.open(T2 / "results/near_duplicates.png")
-    p = save(nd.crop((0, 0, nd.width, min(nd.height, 970))), "2_near_dup")
-    total += p.stat().st_size
-    # dataset sample grid: 6 training images per class
-    cls = ["apple", "banana", "orange"]
-    cell = 150
-    grid = Image.new("RGB", (6 * cell, 3 * (cell + 18)), "white")
-    d = ImageDraw.Draw(grid)
-    for r, c in enumerate(cls):
-        files = sorted(glob.glob(str(CW / f"datasets/fruits/splits/train/{c}/*.jpg")))[::9][:6]
-        for i, f in enumerate(files):
-            t = Image.open(f).convert("RGB")
-            t.thumbnail((cell - 6, cell - 6))
-            grid.paste(t, (i * cell + (cell - t.width) // 2, r * (cell + 18) + 18 + (cell - t.height) // 2))
-        d.text((4, r * (cell + 18) + 2), f"class: {c}", fill="black")
-    p = save(grid, "2_samples")
-    total += p.stat().st_size
+    # Dataset images themselves are not put in the report; they are in CW/datasets/ in the repository.
     print(f"TOTAL {total / 1024 / 1024:.2f} MB")
 
 

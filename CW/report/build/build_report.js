@@ -20,7 +20,8 @@ const T3 = path.join(CW, "task3");
 const OUT = path.join(CW, "report", "FCVG101_Coursework_Report.docx");
 
 const PAGE_W = 11906, MARGIN = 1134, CONTENT = PAGE_W - 2 * MARGIN; // A4, 2 cm margins
-const FONT = "Calibri", MONO = "Consolas", MATH = "Cambria Math";
+const FONT = "Calibri", MONO = "Consolas", MATH = "Calibri";   // Calibri for formulas too: one font less in the PDF
+const DATASETS_URL = "https://github.com/phu9608-byte/FCVG101/tree/main/CW/datasets";
 const ACCENT = "1F3864";
 
 // ---------------------------------------------------------------- helpers: data
@@ -424,7 +425,7 @@ function content() {
   add(H2("3.1 Dataset and justification"));
   add(P("**Dataset:** *Fruit Images for Object Detection* by Muhammed Buyukkinaci on Kaggle (licence CC0: public domain). It contains 300 photos of apples, bananas, oranges and mixed fruit, with bounding-box XML files for detection. For this MVP the task is **3-class image classification (apple, banana, orange)**, so the XML files are not used and mixed photos are excluded."));
   add(P("**Why this dataset?** (1) It matches the scenario: fruit photographed in varied, realistic conditions (single fruit, bunches, cut fruit, white and natural backgrounds), the kind of image a farm worker would upload. (2) The licence allows use and redistribution. (3) The same photos feed Task 1B and 1C, so the classical engine and the CNN work on one domain. (4) It is small enough to clean by hand, which shows a careful pipeline; the small size is also a limitation, discussed in Section 3.7."));
-  add(figure("2_samples", "Training examples of the three classes (every ninth image of each class folder)."));
+  add(P("The images themselves are not reproduced in this report: the cleaned dataset (`datasets/fruits/raw/` and the train/validation/test split in `datasets/fruits/splits/`) and the checkerboard photos of Task 1A (`datasets/checkerboard/`) are in the repository at " + DATASETS_URL + ". The report shows only the results computed from them.", { align: AlignmentType.LEFT }));
   add(H2("3.2 Data pipeline"));
   add(P("The pipeline is the notebook `task2/Task2_pipeline.ipynb`, one section per step, each step writing a log or manifest so that every image can be traced from the original archive to the split it ended in."));
   add(table("pipeline", "Steps of the data pipeline.", ["Step", "Script", "What it does", "Output"], [
@@ -444,8 +445,7 @@ function content() {
   add(P("The classes are nearly balanced (largest/smallest = 1.11), so plain cross-entropy without class weights is appropriate, and macro-F1 is reported next to accuracy."));
   add(H3("3.2.3 Near-duplicate audit"));
   add(P("SHA-256 only finds byte-identical files. A resized, recompressed, cropped or mirrored copy has a different hash but almost the same content, and if it falls into train and test the test score is inflated. § 3 of the notebook computes a perceptual hash: grey 32 × 32 → 2-D DCT → 8 × 8 low-frequency block → one bit per coefficient (above/below the median). The Hamming distance between hashes (0–64) is compared both to the image and to its mirror. On this dataset two crops of one original give d = 14, while the median distance between different photos is 28, so the threshold is 14."));
-  add(P("The audit flagged **73 pairs** (minimum d = 8), **29 across splits** and **33 across classes**. Cross-class pairs cannot be true duplicates (e.g. the closest pair is a mirrored apple/orange pair at d = 8), which shows that at this threshold pHash mostly finds *similar layouts*: one round fruit on a white background. The list is therefore a review aid, not an automatic filter: the contact sheet ({fig:2_near_dup}) is inspected by eye, cross-split pairs first, and a confirmed duplicate would be given a shared group id so that it moves into one split."));
-  add(figure("2_near_dup", "First rows of the near-duplicate contact sheet (red label = pair across splits; d = Hamming distance; 'lat' = mirrored match).", 0.85));
+  add(P("The audit flagged **73 pairs** (minimum d = 8), **29 across splits** and **33 across classes**. Cross-class pairs cannot be true duplicates (e.g. the closest pair is a mirrored apple/orange pair at d = 8), which shows that at this threshold pHash mostly finds *similar layouts*: one round fruit on a white background. The list is therefore a review aid, not an automatic filter: the contact sheet `task2/results/near_duplicates.png` (in the repository) is inspected by eye, cross-split pairs first, and a confirmed duplicate would be given a shared group id so that it moves into one split."));
   add(H3("3.2.4 Transformation and augmentation"));
   add(P("One function, `make_transform`, defines the preprocessing for training, validation, test and inference, so the app sees exactly the input distribution the model was trained on. Images are resized to 128 × 128 (fruit photos are recognisable at this size and the small input keeps the model and training fast) and normalised to [−1, 1]. **Augmentation is applied on the fly and only in the training loader** (no offline copies, so augmented versions of one photo cannot leak into validation/test): rotation ±12°, horizontal flip and brightness/contrast jitter ±15 %, which mimic how a phone photo of a fruit varies. Vertical flips and strong hue changes are not used because they would create unrealistic images (a banana's colour is part of its identity)."));
   add(...snippet(path.join(T2, "src/data_utils.py"), "IMAGE_SIZE = 128", null, "Listing 4"));
@@ -603,6 +603,7 @@ function content() {
   const linkPara = (label, url) => new Paragraph({ spacing: { after: 100 }, children: [new TextRun({ text: label, bold: true }), new ExternalHyperlink({ link: url, children: [new TextRun({ text: url, style: "Hyperlink" })] })] });
   add(linkPara("Source code, datasets and report (GitHub): ", REPO));
   add(linkPara("Trained model artifact (model.pth): ", MODEL_URL));
+  add(linkPara("Datasets (checkerboard photos, fruit images and split): ", DATASETS_URL));
   add(P("The repository contains the folder `CW/` with `datasets/`, `task1/`, `task2/`, `task3/` and `report/`, as described in this report."));
 
   // ============================================================ REFERENCES

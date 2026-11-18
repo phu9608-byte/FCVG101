@@ -13,8 +13,8 @@ try {
     $doc.Fields.Update() | Out-Null
     foreach ($toc in $doc.TablesOfContents) { $toc.UpdatePageNumbers() }
     $doc.Save()
-    # 17 = wdExportFormatPDF; OptimizeFor 0 = print quality; CreateBookmarks 1 = from headings
-    $doc.ExportAsFixedFormat($pdf, 17, $false, 0, 0, 0, 0, 0, $true, $true, 0, $true, $true, $false)
+    # 17 = wdExportFormatPDF; OptimizeFor 1 = minimum size (CMS limit 2 MB); CreateBookmarks 1 = from headings
+    $doc.ExportAsFixedFormat($pdf, 17, $false, 1, 0, 0, 0, 0, $true, $true, 1, $true, $true, $false)
     "pages: " + $doc.ComputeStatistics(2)
     $doc.Close($false)
 } finally {
