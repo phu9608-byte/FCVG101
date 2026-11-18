@@ -1,0 +1,38 @@
+{
+  "test_samples": 38,
+  "accuracy": 0.9736842105263158,
+  "macro_f1": 0.9731615673644659,
+  "per_class": {
+    "apple": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 13.0
+    },
+    "banana": {
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9565217391304348,
+      "support": 12.0
+    },
+    "orange": {
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1-score": 0.9629629629629629,
+      "support": 13.0
+    },
+    "accuracy": 0.9736842105263158,
+    "macro avg": {
+      "precision": 0.9761904761904763,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.9731615673644659,
+      "support": 38.0
+    },
+    "weighted avg": {
+      "precision": 0.9755639097744361,
+      "recall": 0.9736842105263158,
+      "f1-score": 0.973599457581151,
+      "support": 38.0
+    }
+  }
+}

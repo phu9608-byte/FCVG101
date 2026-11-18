@@ -1,0 +1,3 @@
+pair,good_matches,ransac_inliers,inlier_ratio,decision
+Cùng cảnh (ảnh biến đổi),340,331,0.9735294117647059,CÙNG CẢNH
+Không liên quan (chuối),13,5,0.38461538461538464,KHÁC CẢNH

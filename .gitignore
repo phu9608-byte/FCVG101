@@ -1,0 +1,32 @@
+# Only the CW/ folder is part of the repository.
+# Course hand-outs, the brief, the original Kaggle archive and the Task 1A starter workshop stay local.
+/*
+!/.gitignore
+!/CW/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Node (report build helper)
+node_modules/
+
+# Editors, OS and tools
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office lock / temp files
+~$*
+*.tmp
+
+# Streamlit secrets
+.streamlit/secrets.toml

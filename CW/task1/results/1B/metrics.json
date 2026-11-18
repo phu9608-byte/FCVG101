@@ -1,0 +1,34 @@
+{
+  "image": "kaggle_train_orange_16.jpg",
+  "size_wh": [
+    450,
+    448
+  ],
+  "conv_scratch_max_abs_diff": 1.4210854715202004e-13,
+  "best_filter_gaussian_noise": {
+    "filter": "bilateral",
+    "k": 7,
+    "PSNR_dB": 28.76820912913463,
+    "SSIM": 0.8231019716129252
+  },
+  "best_filter_salt_pepper": {
+    "filter": "median",
+    "k": 3,
+    "PSNR_dB": 30.515777640607546,
+    "SSIM": 0.9111750963969769
+  },
+  "canny_auto_thresholds": [
+    156,
+    255
+  ],
+  "edge_F1_no_prefilter": 0.26001599005063514,
+  "edge_F1_best_prefilter": [
+    "Gaussian 5x5",
+    0.9181208949006903
+  ],
+  "conv_theorem_mean_abs_diff": 0.01645311196730977,
+  "periodic_noise_psnr_noisy_vs_notch": [
+    22.788866282002584,
+    29.527051841308484
+  ]
+}

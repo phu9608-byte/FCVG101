@@ -1,0 +1,6 @@
+[server]
+maxUploadSize = 25          # MB, same limit as assistant/settings.py
+runOnSave = false
+
+[browser]
+gatherUsageStats = false

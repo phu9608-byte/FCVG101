@@ -1,0 +1,56 @@
+{
+  "image": "kaggle_test_orange_77.jpg",
+  "ratio": 0.75,
+  "tolerance_px": 3.0,
+  "harris_scratch_vs_opencv_corr": 0.9999999999999917,
+  "harris_top200_agreement": 1.0,
+  "methods": {
+    "SIFT": {
+      "kp1": 771,
+      "kp2": 635,
+      "good_matches": 340,
+      "ransac_inliers": 331,
+      "time_ms": 101.5459,
+      "correct_matches": 331,
+      "precision": 0.9735,
+      "repeatability": 0.6332,
+      "H_corner_error_px": 0.1978
+    },
+    "ORB": {
+      "kp1": 1378,
+      "kp2": 1535,
+      "good_matches": 543,
+      "ransac_inliers": 531,
+      "time_ms": 490.3369,
+      "correct_matches": 521,
+      "precision": 0.9595,
+      "repeatability": 0.8394,
+      "H_corner_error_px": 1.2942
+    },
+    "Harris+SIFT": {
+      "kp1": 112,
+      "kp2": 102,
+      "good_matches": 3,
+      "ransac_inliers": 0,
+      "time_ms": 66.6269,
+      "correct_matches": 1,
+      "precision": 0.3333,
+      "repeatability": 0.7677,
+      "H_corner_error_px": NaN
+    }
+  },
+  "unrelated_pair": {
+    "Cùng cảnh (ảnh biến đổi)": {
+      "good_matches": 340,
+      "ransac_inliers": 331,
+      "inlier_ratio": 0.974,
+      "decision": "CÙNG CẢNH"
+    },
+    "Không liên quan (chuối)": {
+      "good_matches": 13,
+      "ransac_inliers": 5,
+      "inlier_ratio": 0.385,
+      "decision": "KHÁC CẢNH"
+    }
+  }
+}

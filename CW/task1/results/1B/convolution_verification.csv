@@ -1,0 +1,7 @@
+,max_abs_diff
+correlate2d vs cv2.filter2D (Gaussian 5x5),1.4210854715202004e-13
+correlate2d(Box 5x5) vs cv2.blur,5.684341886080802e-14
+convolve2d(Sobel X) vs filter2D(kernel đã lật),0.0
+"convolve2d(Sobel X) + correlate2d(Sobel X) (phải = 0, vì đổi dấu)",0.0
+gaussian_kernel vs cv2.getGaussianKernel,2.7755575615628914e-17
+median_filter tự cài vs cv2.medianBlur (5x5),0.0

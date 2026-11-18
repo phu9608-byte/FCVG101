@@ -1,0 +1,301 @@
+﻿source,label,action,reason,saved_path
+C:\Users\USER\Downloads\archive\test_zip\test\apple_77.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_77.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_78.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_78.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_79.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_79.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_80.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_80.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_81.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_81.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_82.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_82.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_83.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_83.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_84.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_84.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_85.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_85.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_86.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_86.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_87.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_87.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_88.jpg,apple,excluded,"hình vẽ, không phải ảnh chụp",
+C:\Users\USER\Downloads\archive\test_zip\test\apple_89.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_89.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_90.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_90.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_91.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_91.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_92.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_92.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_93.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_93.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_94.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_94.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\apple_95.jpg,apple,copied,,data\raw\apple\kaggle_test_apple_95.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_77.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_77.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_78.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_78.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_79.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_79.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_80.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_80.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_81.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_81.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_82.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_82.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_83.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_83.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_84.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_84.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_85.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_85.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_86.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_86.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_87.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_87.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_88.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_88.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_89.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_89.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_90.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_90.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_91.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_91.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\banana_92.jpg,banana,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\test_zip\test\banana_93.jpg,banana,excluded,"hình vector, có chữ ""Banana""",
+C:\Users\USER\Downloads\archive\test_zip\test\banana_94.jpg,banana,copied,,data\raw\banana\kaggle_test_banana_94.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\mixed_21.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\test_zip\test\mixed_22.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\test_zip\test\mixed_23.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\test_zip\test\mixed_24.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\test_zip\test\mixed_25.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\test_zip\test\orange_77.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_77.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_78.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_78.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_79.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_79.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_80.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_80.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_81.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_81.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_82.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_82.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_83.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_83.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_84.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_84.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_85.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_85.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_86.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_86.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_87.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_87.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_89.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_89.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_90.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_90.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_91.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_91.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_92.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_92.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_93.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_93.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_94.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_94.jpg
+C:\Users\USER\Downloads\archive\test_zip\test\orange_95.jpg,orange,copied,,data\raw\orange\kaggle_test_orange_95.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_1.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_1.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_10.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_10.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_11.jpg,apple,excluded,"chủ thể chính là mứt táo cuộn, không phải quả táo",
+C:\Users\USER\Downloads\archive\train_zip\train\apple_12.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_12.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_13.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_13.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_14.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_14.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_15.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_15.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_16.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_16.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_17.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_17.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_18.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_18.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_19.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_19.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_2.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_2.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_20.jpg,apple,excluded,clipart,
+C:\Users\USER\Downloads\archive\train_zip\train\apple_21.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_21.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_22.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_22.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_23.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_23.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_24.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_24.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_25.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_25.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_26.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_26.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_27.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_27.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_28.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_28.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_29.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_29.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_3.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_3.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_30.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_30.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_31.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_31.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_32.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_32.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_33.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_33.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_35.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_35.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_36.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_36.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_37.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_37.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_38.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_38.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_39.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_39.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_4.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_4.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_40.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_40.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_41.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_41.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_42.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_42.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_43.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_43.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_44.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_44.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_45.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_45.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_46.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_46.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_47.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_47.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_48.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_48.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_49.jpg,apple,excluded,hình vẽ / đồ thủ công,
+C:\Users\USER\Downloads\archive\train_zip\train\apple_5.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_5.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_50.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_50.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_51.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_51.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_52.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_52.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_53.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_53.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_54.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_54.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_55.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_55.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_56.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_56.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_57.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_57.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_58.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_58.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_59.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_59.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_6.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_6.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_60.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_60.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_61.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_61.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_62.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_62.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_63.jpg,apple,excluded,chữ chèn lớn lên ảnh,
+C:\Users\USER\Downloads\archive\train_zip\train\apple_64.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_64.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_65.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_65.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_66.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_66.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_67.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_67.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_68.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_68.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_69.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_69.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_7.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_7.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_70.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_70.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_71.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_71.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_72.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_72.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_73.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_73.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_74.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_74.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_75.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_75.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_76.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_76.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_8.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_8.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\apple_9.jpg,apple,copied,,data\raw\apple\kaggle_train_apple_9.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_1.jpg,banana,excluded,đồ chơi hình quả chuối,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_10.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_10.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_11.jpg,banana,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_12.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_12.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_13.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_13.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_14.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_14.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_16.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_16.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_17.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_17.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_2.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_2.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_20.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_20.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_21.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_21.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_22.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_22.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_23.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_23.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_24.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_24.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_25.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_25.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_26.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_26.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_27.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_27.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_28.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_28.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_29.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_29.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_3.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_3.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_30.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_30.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_31.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_31.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_32.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_32.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_33.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_33.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_34.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_34.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_35.jpg,banana,excluded,có quả đào (lớp khác) trong ảnh,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_36.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_36.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_37.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_37.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_38.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_38.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_39.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_39.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_4.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_4.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_40.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_40.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_41.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_41.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_42.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_42.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_43.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_43.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_44.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_44.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_45.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_45.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_46.jpg,banana,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_47.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_47.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_48.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_48.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_49.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_49.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_5.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_5.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_50.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_50.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_51.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_51.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_52.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_52.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_53.jpg,banana,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_54.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_54.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_55.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_55.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_56.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_56.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_57.jpg,banana,excluded,hình minh họa,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_58.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_58.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_59.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_59.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_6.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_6.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_60.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_60.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_61.jpg,banana,excluded,có quả táo (lớp khác) trong ảnh,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_62.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_62.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_63.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_63.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_64.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_64.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_65.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_65.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_66.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_66.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_67.jpg,banana,excluded,đồ chơi gặm hình chuối,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_68.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_68.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_69.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_69.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_7.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_7.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_70.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_70.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_71.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_71.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_72.jpg,banana,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\banana_73.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_73.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_74.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_74.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_75.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_75.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_76.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_76.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_8.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_8.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\banana_9.jpg,banana,copied,,data\raw\banana\kaggle_train_banana_9.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_1.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_10.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_11.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_12.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_13.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_14.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_15.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_16.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_17.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_18.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_19.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_2.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_20.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_3.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_4.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_5.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_6.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_7.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_8.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\mixed_9.jpg,mixed,skipped,không thuộc 3 lớp (mixed/khác),
+C:\Users\USER\Downloads\archive\train_zip\train\orange_1.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_1.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_10.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_10.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_11.jpg,orange,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\orange_12.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_12.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_13.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_13.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_14.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_14.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_15.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_15.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_16.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_16.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_17.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_17.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_18.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_18.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_19.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_19.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_2.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_2.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_20.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_20.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_21.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_21.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_22.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_22.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_23.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_23.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_24.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_24.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_25.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_25.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_26.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_26.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_27.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_27.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_28.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_28.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_29.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_29.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_3.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_3.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_30.jpg,orange,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\orange_31.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_31.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_32.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_32.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_33.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_33.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_34.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_34.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_35.jpg,orange,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\orange_36.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_36.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_37.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_37.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_38.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_38.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_4.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_4.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_40.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_40.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_41.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_41.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_42.jpg,orange,excluded,hình vẽ,
+C:\Users\USER\Downloads\archive\train_zip\train\orange_43.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_43.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_44.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_44.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_46.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_46.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_47.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_47.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_48.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_48.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_49.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_49.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_5.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_5.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_50.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_50.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_51.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_51.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_52.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_52.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_53.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_53.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_54.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_54.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_55.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_55.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_56.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_56.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_57.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_57.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_58.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_58.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_59.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_59.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_6.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_6.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_60.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_60.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_61.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_61.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_62.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_62.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_63.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_63.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_64.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_64.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_67.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_67.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_68.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_68.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_69.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_69.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_7.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_7.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_70.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_70.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_71.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_71.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_72.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_72.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_73.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_73.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_74.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_74.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_75.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_75.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_76.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_76.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_8.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_8.jpg
+C:\Users\USER\Downloads\archive\train_zip\train\orange_9.jpg,orange,copied,,data\raw\orange\kaggle_train_orange_9.jpg

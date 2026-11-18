@@ -1,0 +1,302 @@
+{
+  "runs": [
+    {
+      "figure": "t3_classify",
+      "request": "Phân loại quả này giúp tôi",
+      "mode": "classify",
+      "reason": "Matched: 'phan loai', 'loai qua'",
+      "params": {},
+      "summary": "Predicted apple with score 0.991.",
+      "metrics": {
+        "predicted class": "apple",
+        "score (softmax)": "0.9913",
+        "margin to 2nd class": "0.9826",
+        "model": "FruitCNN_3Conv_GAP",
+        "input": "128 px, mean/std [0.5, 0.5, 0.5]/[0.5, 0.5, 0.5]"
+      },
+      "table": [
+        {
+          "class": "apple",
+          "score": 0.9913
+        },
+        {
+          "class": "banana",
+          "score": 0.0087
+        },
+        {
+          "class": "orange",
+          "score": 0.0
+        }
+      ],
+      "warnings": [
+        "Softmax scores are not calibrated probabilities; the model only knows apple, banana, orange and will always answer one of them."
+      ],
+      "elapsed_ms": 56.6
+    },
+    {
+      "figure": "t3_inspect",
+      "request": "Inspect this fruit: classify and measure it",
+      "mode": "inspect",
+      "reason": "Matched: 'inspect'",
+      "params": {},
+      "summary": "Predicted orange with score 1.000. Fruit outline: equivalent diameter 306 px, 310 x 304 px.",
+      "metrics": {
+        "predicted class": "orange",
+        "score (softmax)": "1.0",
+        "margin to 2nd class": "1.0",
+        "model": "FruitCNN_3Conv_GAP",
+        "input": "128 px, mean/std [0.5, 0.5, 0.5]/[0.5, 0.5, 0.5]",
+        "area (px)": "73407",
+        "equivalent diameter (px)": "305.7",
+        "length x width (px, min-area box)": "309.7 x 303.9",
+        "touches image border": "False",
+        "solidity (area / convex hull)": "0.99",
+        "foreground regions > 1% of image": "1"
+      },
+      "table": [
+        {
+          "class": "orange",
+          "score": 1.0
+        },
+        {
+          "class": "apple",
+          "score": 0.0
+        },
+        {
+          "class": "banana",
+          "score": 0.0
+        }
+      ],
+      "warnings": [
+        "Softmax scores are not calibrated probabilities; the model only knows apple, banana, orange and will always answer one of them.",
+        "Image is 416x416 but the camera was calibrated at 4000x3000 (aspect ratio 1.000 vs 1.333). Size is reported in pixels only."
+      ],
+      "elapsed_ms": 39.5
+    },
+    {
+      "figure": "t3_filter",
+      "request": "Lọc nhiễu muối tiêu bằng median 5x5",
+      "mode": "filter",
+      "reason": "Matched: 'loc', 'nhieu', 'median'",
+      "params": {
+        "filter": "median",
+        "ksize": "5",
+        "noise": "salt_pepper"
+      },
+      "summary": "Median filter on salt & pepper 5%: PSNR 17.09 -> 38.44 dB. Best filter for this noise: median 5x5 (38.45 dB).",
+      "metrics": {
+        "filter": "median",
+        "working size": "791 x 564",
+        "kernel": "5 x 5",
+        "PSNR noisy -> filtered (dB)": "17.092 -> 38.44"
+      },
+      "table": [
+        {
+          "image": "noisy input",
+          "MSE": 1270.228,
+          "PSNR_dB": 17.092,
+          "SSIM": 0.272
+        },
+        {
+          "image": "box 5x5",
+          "MSE": 87.473,
+          "PSNR_dB": 28.712,
+          "SSIM": 0.715
+        },
+        {
+          "image": "gaussian 5x5",
+          "MSE": 117.043,
+          "PSNR_dB": 27.447,
+          "SSIM": 0.644
+        },
+        {
+          "image": "median 5x5",
+          "MSE": 9.302,
+          "PSNR_dB": 38.445,
+          "SSIM": 0.951
+        },
+        {
+          "image": "bilateral 5x5",
+          "MSE": 1187.974,
+          "PSNR_dB": 17.383,
+          "SSIM": 0.301
+        }
+      ],
+      "warnings": [],
+      "elapsed_ms": 265.7
+    },
+    {
+      "figure": "t3_fft",
+      "request": "Low-pass filter in the frequency domain, cutoff 25",
+      "mode": "filter",
+      "reason": "Matched: 'filter', 'frequency', 'low pass'",
+      "params": {
+        "filter": "fft_lowpass",
+        "cutoff": "25"
+      },
+      "summary": "Fourier lowpass (gaussian, D0=25) keeps 99.9% of the spectral energy: fine detail and noise are removed.",
+      "metrics": {
+        "filter": "fft_lowpass",
+        "working size": "460 x 460",
+        "transfer function": "gaussian lowpass",
+        "cut-off D0 (frequency px)": "25",
+        "spectral energy kept (%)": "99.89"
+      },
+      "table": null,
+      "warnings": [],
+      "elapsed_ms": 43.7
+    },
+    {
+      "figure": "t3_edges",
+      "request": "Find the edges with Canny and Sobel",
+      "mode": "edges",
+      "reason": "Matched: 'edges', 'sobel', 'canny'",
+      "params": {},
+      "summary": "Canny found edges on 0.6% of pixels with thresholds 152/255. Fruit outline circularity 0.492.",
+      "metrics": {
+        "working size": "650 x 651",
+        "Canny thresholds": "152 / 255 (auto (median-based))",
+        "edge pixels (%)": "0.6",
+        "mean gradient magnitude": "28.68",
+        "fruit area (% of image)": "50.6",
+        "fruit circularity 4*pi*A/P^2": "0.492"
+      },
+      "table": null,
+      "warnings": [],
+      "elapsed_ms": 52.9
+    },
+    {
+      "figure": "t3_features",
+      "request": "So khớp SIFT giữa hai ảnh",
+      "mode": "features",
+      "reason": "Matched: 'so khop', 'khop', 'sift'",
+      "params": {
+        "method": "SIFT"
+      },
+      "summary": "SIFT: 643 / 796 keypoints, 172 matches pass the ratio test 0.75, 81 are RANSAC inliers.",
+      "metrics": {
+        "method": "SIFT",
+        "kp1": "643",
+        "kp2": "796",
+        "good_matches": "172",
+        "ransac_inliers": "81",
+        "time_ms": "94.778",
+        "ratio": "0.75",
+        "pair": "two uploaded views"
+      },
+      "table": null,
+      "warnings": [],
+      "elapsed_ms": 116.0
+    },
+    {
+      "figure": "t3_calibrate",
+      "request": "Khử méo ảnh này",
+      "mode": "calibrate",
+      "reason": "Matched: 'khu meo', 'meo'",
+      "params": {},
+      "summary": "Undistorted with K from Task 1A. Checkerboard rows/columns became straighter: 0.23 px -> 0.09 px RMS deviation from a straight line.",
+      "metrics": {
+        "image_size": "4000 x 3000",
+        "calibrated_at": "4000 x 3000",
+        "fx, fy (px, this size)": "2754.6, 2754.8",
+        "cx, cy (px, this size)": "1995.5, 1478.8",
+        "dist (k1,k2,p1,p2,k3)": "+0.1438, -0.4284, -0.0003, -0.0003, +0.3594",
+        "calibration RMS (px)": "0.458",
+        "max undistortion shift (px)": "55.7",
+        "horizontal FOV (deg)": "72.0",
+        "board corners": "54 found (SB + subpixel)",
+        "line straightness before (px RMS)": "0.23",
+        "line straightness after (px RMS)": "0.093"
+      },
+      "table": null,
+      "warnings": [],
+      "elapsed_ms": 217.0
+    }
+  ],
+  "routing": [
+    {
+      "request": "phân loại quả này",
+      "mode": "classify",
+      "reason": "Matched: 'phan loai', 'loai qua'",
+      "params": ""
+    },
+    {
+      "request": "What fruit is this?",
+      "mode": "classify",
+      "reason": "Matched: 'what fruit'",
+      "params": ""
+    },
+    {
+      "request": "tìm cạnh bằng Canny",
+      "mode": "edges",
+      "reason": "Matched: 'canh', 'canny'",
+      "params": ""
+    },
+    {
+      "request": "find the edges, thresholds 50 150",
+      "mode": "edges",
+      "reason": "Matched: 'edges'",
+      "params": "canny=(50, 150)"
+    },
+    {
+      "request": "lọc nhiễu muối tiêu bằng median 7x7",
+      "mode": "filter",
+      "reason": "Matched: 'loc', 'nhieu', 'median'",
+      "params": "filter=median, ksize=7, noise=salt_pepper"
+    },
+    {
+      "request": "apply a low pass FFT filter",
+      "mode": "filter",
+      "reason": "Matched: 'filter', 'fft', 'low pass'",
+      "params": "filter=fft_lowpass"
+    },
+    {
+      "request": "so khớp ORB giữa hai ảnh, ratio 0.8",
+      "mode": "features",
+      "reason": "Matched: 'so khop', 'khop', 'orb'",
+      "params": "method=ORB, ratio=0.8"
+    },
+    {
+      "request": "detect Harris corners",
+      "mode": "features",
+      "reason": "Matched: 'harris', 'corners'",
+      "params": "method=Harris+SIFT"
+    },
+    {
+      "request": "khử méo ảnh này",
+      "mode": "calibrate",
+      "reason": "Matched: 'khu meo', 'meo'",
+      "params": ""
+    },
+    {
+      "request": "show the camera intrinsic matrix K",
+      "mode": "calibrate",
+      "reason": "Matched: 'intrinsic'",
+      "params": ""
+    },
+    {
+      "request": "đo kích thước quả ở 30 cm",
+      "mode": "measure",
+      "reason": "Matched: 'kich thuoc', 'do kich thuoc'",
+      "params": "distance_mm=300.0"
+    },
+    {
+      "request": "how big is this fruit?",
+      "mode": "measure",
+      "reason": "Matched: 'how big'",
+      "params": ""
+    },
+    {
+      "request": "phân loại và đo kích thước",
+      "mode": "inspect",
+      "reason": "Matched: 'phan loai', 'kich thuoc', 'do kich thuoc'",
+      "params": ""
+    },
+    {
+      "request": "hello there",
+      "mode": "(ask user)",
+      "reason": "No known task keyword found.",
+      "params": ""
+    }
+  ]
+}
